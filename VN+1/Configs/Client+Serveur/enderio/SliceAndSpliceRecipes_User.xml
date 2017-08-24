@@ -1,3 +1,17 @@
-<SliceAndSpliceRecipes>
-
-</SliceAndSpliceRecipes>
+<SliceAndSpliceRecipes>
+ <recipeGroup name="Imperacube" >
+    <recipe name="Electrode Skull" energyCost="500000" >
+      <input>
+        <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="2" slot="0" />
+        <itemStack modID="minecraft" itemName="emerald" slot="1" />
+        <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="2" slot="2" />
+        <itemStack modID="minecraft" itemName="emerald" slot="3" />
+        <itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="8" slot="4" />
+        <itemStack modID="minecraft" itemName="emerald" slot="5" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="10" />
+      </output>
+    </recipe>
+ </recipeGroup >
+</SliceAndSpliceRecipes>
